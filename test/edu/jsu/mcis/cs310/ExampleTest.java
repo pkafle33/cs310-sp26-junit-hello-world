@@ -49,4 +49,9 @@ public class ExampleTest {
         assertEquals(expectedReverse3, actual);
     }
     
+    @Test
+    public void testReverseMessage4() {
+        assertEquals("!321", new Main().reverse("123!"));
+    }
+    
 }
